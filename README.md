@@ -1,9 +1,5 @@
 # Starting Something New
 
-A place for my learning projects.
-
-## Why I'm doing this
-
 I used to live by life milestones. After my bachelor's, I thought a master's would give me direction. Still confused. Okay, maybe a PhD will do. Still confused.
 
 So what do I actually want? I'm still figuring that out.
