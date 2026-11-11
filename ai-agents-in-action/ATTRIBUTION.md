@@ -2,7 +2,7 @@
 
 ## Source
 
-Many examples in this repository are adapted from the sample code for the book *AI Agents in Action, Second Edition* (Manning).
+The exercises in this folder are adapted from the sample code for the book *AI Agents in Action, Second Edition* (Manning).
 
 - Upstream repository: https://github.com/cxbxmxcx/AI-Agent-Workflows
 - License: Apache License 2.0 (copy in `THIRD_PARTY_LICENSES/AI-Agent-Workflows-LICENSE.txt`)
@@ -12,15 +12,14 @@ The upstream README does not name the book's author. TODO: add the author's name
 
 ## How adapted code is marked
 
-Every file that is adapted from the upstream repository starts with a header comment like this:
+Each notebook that contains adapted code has a header comment in its first code cell, and each exercise names its upstream file. The header looks like this:
 
 ```python
-# Adapted from chapter_02/07_agent_with_tool.py in
-# https://github.com/cxbxmxcx/AI-Agent-Workflows (Apache License 2.0).
-# Modified: <one line on what I changed>.
+# Adapted from chapter_02/ in https://github.com/cxbxmxcx/AI-Agent-Workflows (Apache License 2.0).
+# Modified: <what I changed>.
 ```
 
-Files I write from scratch carry no such header.
+The chapter summaries, notes and explanations in the notebooks are my own writing, based on my understanding of the book. They do not reproduce its text.
 
 ## What the license asks of me
 

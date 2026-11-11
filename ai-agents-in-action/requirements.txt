@@ -4,3 +4,6 @@ openai-agents==0.23.1
 pydantic==2.13.5
 python-dotenv==1.2.4
 typing_extensions==4.16.0
+
+# Needed to run the notebooks (VS Code installs it for you if missing; version not pinned)
+ipykernel
