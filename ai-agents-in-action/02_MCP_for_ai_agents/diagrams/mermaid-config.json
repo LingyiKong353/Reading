@@ -1,0 +1,6 @@
+{
+  "htmlLabels": false,
+  "flowchart": { "htmlLabels": false, "wrappingWidth": 400 },
+  "themeVariables": { "edgeLabelBackground": "#ffffff" },
+  "themeCSS": ".edgeLabel rect { opacity: 1 !important; }"
+}

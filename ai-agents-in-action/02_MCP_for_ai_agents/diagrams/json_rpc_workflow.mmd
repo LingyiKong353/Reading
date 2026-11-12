@@ -1,0 +1,9 @@
+sequenceDiagram
+    participant A as Agent (Host)
+    participant C as Client
+    participant S as Server
+
+    A->>C: call search tool
+    C->>S: {"method": "search", "params": {"query": "..."}, "id": 1}
+    S-->>C: {"result": ["article 1", "article 2"], "id": 1}
+    C-->>A: returns results
