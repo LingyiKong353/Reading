@@ -1,12 +1,4 @@
-# Starting Something New
-
-I used to live by life milestones. After my bachelor's, I thought a master's would give me direction. Still confused. Okay, maybe a PhD will do. Still confused.
-
-So what do I actually want? I'm still figuring that out.
-
-The one thing I do know is that I want to read more and learn more, and build things along the way. Maybe that's where I'll find the meaning. Or maybe I'll read a lot more and still be this confused. Let's see!
-
-## Projects
+# Reading
 
 | Project | What it is |
 |---|---|
