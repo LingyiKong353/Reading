@@ -1,0 +1,30 @@
+flowchart TD
+    U([User]) -->|"Research<br/>transformer models<br/>and save a summary"| H
+
+    subgraph H["Host (Python script)"]
+        A[Agent / LLM]
+        C1[Web Search Client]
+        C2[Wikipedia Client]
+        C3[Filesystem Client]
+    end
+
+    C1 <-->|JSON-RPC| S1
+    C2 <-->|JSON-RPC| S2
+    C3 <-->|JSON-RPC| S3
+
+    subgraph S1["Web Search Server"]
+        T1["Tool:<br/>search_web(query)"]
+        P1["Prompt:<br/>'You are a research librarian...'"]
+    end
+
+    subgraph S2["Wikipedia Server"]
+        R1["Resource:<br/>wikipedia://transformer_models"]
+    end
+
+    subgraph S3["Filesystem Server"]
+        T2["Tool:<br/>save_file(path, content)"]
+    end
+
+    A --> C1
+    A --> C2
+    A --> C3

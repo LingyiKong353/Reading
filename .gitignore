@@ -17,3 +17,4 @@ __pycache__/
 # Tool output
 *.gv
 *.gv.pdf
+*.log
